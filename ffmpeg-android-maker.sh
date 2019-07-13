@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
-FFMPEG_VERSION=4.1.3
+FFMPEG_VERSION=4.1.4
 
-# Assuming the script is used on macOS of Linux machine
+# Assuming the script is used on macOS or Linux machine
 case "$OSTYPE" in
   darwin*)  HOST_TAG="darwin-x86_64" ;;
   linux*)   HOST_TAG="linux-x86_64" ;;
